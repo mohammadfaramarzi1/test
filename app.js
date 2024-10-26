@@ -5,5 +5,9 @@ const isLogin = (username) => {
 };
 
 const register = (username) => {
-  return true;
+  if (username) {
+    return true;
+  } else {
+    return false;
+  }
 };
