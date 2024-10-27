@@ -1,7 +1,7 @@
 let userAge = 12;
 
 const isLogin = (username) => {
-  if (username) {
+  if (username === "amin") {
     return true;
   } else {
     return false;
