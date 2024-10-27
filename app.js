@@ -1,4 +1,4 @@
-let userAge = 25;
+let userAge = 12;
 
 const isLogin = (username) => {
   if (username) {
