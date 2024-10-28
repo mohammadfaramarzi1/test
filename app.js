@@ -15,3 +15,7 @@ const register = (username) => {
     return false;
   }
 };
+
+const getMe = (user) => {
+  return user;
+};
