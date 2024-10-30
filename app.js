@@ -17,13 +17,15 @@ const register = (username) => {
 };
 
 const getMe = (user) => {
-  if(user) {
+  if (user) {
     return user;
   } else {
-    return false
+    return false;
   }
 };
 
 const addCourse = (course) => {
   return course;
-}
+};
+
+const test = () => false;
