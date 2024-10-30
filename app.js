@@ -17,5 +17,13 @@ const register = (username) => {
 };
 
 const getMe = (user) => {
-  return user;
+  if(user) {
+    return user;
+  } else {
+    return false
+  }
 };
+
+const addCourse = (course) => {
+  return course;
+}
